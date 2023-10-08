@@ -117,7 +117,7 @@ header {
 .skills-section {
   background-color: #a2d2ff;
   text-align: center;
-  padding: 80px;
+  padding: 130px;
   color: black;
 }
 
@@ -163,14 +163,14 @@ header {
 
 /* Contact Section Styles */
 .contact-section {
-  background-color: #bde0fe;
+  background-color: #a2d2ff;
   text-align: right;
   padding: 80px;
   color: lemonchiffon;
 }
 
 .contact {
-  background-color: #bde0fe;
+  background-color: #a2d2ff;
   padding: 40px;
   font-family: sans-serif;
   font-size: 25px;
@@ -188,29 +188,29 @@ header {
 /* For screens smaller than 600px */
 @media (max-width: 600px) {
   body {
-    padding: 10px; 
+    padding: 10px;
     margin: 0;
   }
 
   header {
-    padding: 20px; 
+    padding: 20px;
   }
 
   .nav-links {
-    font-size: 20px; 
+    font-size: 20px;
   }
 
   .home-section {
-    flex-direction: column; 
-    padding: 20px; 
+    flex-direction: column;
+    padding: 20px;
   }
 
   .name {
-    font-size: 40px; 
+    font-size: 40px;
   }
 
   .desc {
-    font-size: 20px; 
+    font-size: 20px;
   }
 
   .image {
@@ -220,12 +220,12 @@ header {
   }
 
   .abt {
-    font-size: 20px; 
-    padding: 20px; 
+    font-size: 20px;
+    padding: 20px;
   }
 
   .contact {
-    font-size: 20px; 
+    font-size: 20px;
     padding: 20px;
   }
 }
