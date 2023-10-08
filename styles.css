@@ -5,7 +5,7 @@ body {
 
 /* Header Styles */
 header {
-  background-color: #ffafcc;
+  background-color: #8b79d9;
   color: #ffffff;
   font-family: "Courier New", Courier, monospace;
   padding: 50px;
@@ -46,7 +46,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 250px;
-  background-color: #cdb4db;
+  background-color: #9a99f2;
 }
 
 .image {
@@ -66,18 +66,18 @@ header {
 }
 
 .x {
-  color: #2d6a4f;
+  color: greenyellow;
 }
 
 .y {
-  color: #40916c;
+  color: yellow;
 }
 
 /* About Section Styles */
 .about-section {
   align-items: center;
   padding: 80px;
-  background-color: #a2d2ff;
+  background-color: #b3beff;
   text-align: center;
 }
 
@@ -115,14 +115,14 @@ header {
 
 /* Skills Section Styles */
 .skills-section {
-  background-color: #a2d2ff;
+  background-color: #ccdcff;
   text-align: center;
   padding: 130px;
   color: black;
 }
 
 .skills {
-  background-color: #a2d2ff;
+  background-color: #ccdcff;
   padding: 20px;
   font-family: sans-serif;
   font-size: 25px;
@@ -163,14 +163,14 @@ header {
 
 /* Contact Section Styles */
 .contact-section {
-  background-color: #a2d2ff;
+  background-color: #e6f2ff;
   text-align: right;
   padding: 80px;
   color: lemonchiffon;
 }
 
 .contact {
-  background-color: #a2d2ff;
+  background-color: #e6f2ff;
   padding: 40px;
   font-family: sans-serif;
   font-size: 25px;
