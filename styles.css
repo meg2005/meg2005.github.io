@@ -1,231 +1,130 @@
-body {
-  scroll-behavior: smooth;
-  margin: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-/* Header Styles */
-header {
-  background-color: #ffafcc;
-  color: #ffffff;
-  font-family: "Courier New", Courier, monospace;
-  padding: 50px;
-}
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meghna's Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
 
-.title-bar {
-  text-align: center;
-  font-size: 100px;
-  color: #081c15;
-}
+<body>
+  <header>
+    <div class="title-bar">PORTFOLIO</div>
 
-/* Navigation Styles */
-.nav-links {
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  font-size: 25px;
-  background-color: azure;
-  border-radius: 50px;
-  max-width: 350px;
-  margin: 30px auto;
-  font-family: Arial, Helvetica, sans-serif;
-}
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
 
-.nav-links a {
-  color: #1b4332;
-  border-right: 1px solid #333;
-  padding-right: 10px;
-}
+    <div class="social-media-links">
+      <a href="https://www.linkedin.com/in/meghna-vs-0484a3292" target="_blank" rel="noopener noreferrer">
+        <img src="linkedin.png" alt="LinkedIn" />
+      </a>
+      <a href="https://www.instagram.com/meg.na_vs/" target="_blank" rel="noopener noreferrer">
+        <img src="instagram.png" alt="Instagram" />
+      </a>
+    </div>
+  </header>
 
-.nav-links a:last-child {
-  border-right: none;
-}
+  <section id="home" class="home-section">
+    <div class="desc">
+      <div class="name">MEGHNA V S</div>
 
-/* Home Section Styles */
-.home-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 250px;
-  background-color: #cdb4db;
-}
+      <p class="x">1st year B.Tech CSE</p>
+      <hr color="yellow" />
+      <p class="y">MEC'27</p>
+    </div>
 
-.image {
-  border-radius: 50%;
-}
+    <img src="image.jpg" alt="Meghna's Picture" class="image" width="350px" height="350px" />
+  </section>
 
-.name {
-  font-size: 75px;
-  font-weight: bold;
-  font-family: Verdana;
-  color: #081c15;
-}
+  <section id="about" class="about-section">
+    <div class="abt">
+      <h2 class="heading1">About Me</h2>
+      <p>
+        Hi there! I'm Meghna, a first year CSE student at Model Engineering
+        College. I have a deep passion for web design and coding. I'm all
+        about cooking up some pretty nifty code and creating awesome websites
+        with a perfect blend of functionality and aesthetics.
+      </p>
+      <p>
+        I'm not all about tech though. I'm a bookworm, and I can't resist a
+        good story. And I've got a crafty side too - I'm absolutely hooked on
+        crocheting. It's my way of unwinding and getting creative.
+      </p>
+      <p>
+        So, yeah, I'm on this journey of discovering who I am, and what i can
+        do. Feel free to get to know me better, explore my work, and let's
+        dive into the exciting world of web design and coding together!
+      </p>
+      <p>
+        Thanks for dropping by my portfolio - Stay curious and keep exploring!
+      </p>
+    </div>
+  </section>
 
-.desc {
-  font-size: 30px;
-  font-family: Arial;
-}
+  <section id="skills" class="skills-section">
+    <div class="skills">
+      <h2 class="heading2">Skills</h2>
+    </div>
 
-.x {
-  color: #2d6a4f;
-}
+    <!--Skill 1-->
+    <div class="skill">
+      <div class="skill-name">HTML</div>
+      <div class="skill-bar">
+        <div class="skill-level1" style="width: 80%; background-color: #d8f3dc">80%</div>
+      </div>
+    </div>
 
-.y {
-  color: #40916c;
-}
+    <!--Skill 2-->
+    <div class="skill">
+      <div class="skill-name">CSS</div>
+      <div class="skill-bar">
+        <div class="skill-progress" style="width: 70%; background-color: #b7e4c7">70%</div>
+      </div>
+    </div>
 
-/* About Section Styles */
-.about-section {
-  align-items: center;
-  padding: 80px;
-  background-color: #a2d2ff;
-  text-align: center;
-}
+    <!--Skill 3-->
+    <div class="skill">
+      <div class="skill-name">Python</div>
+      <div class="skill-bar">
+        <div class="skill-progress" style="width: 85%; background-color: #95d5b2">85%</div>
+      </div>
+    </div>
 
-.abt {
-  background-color: azure;
-  border-radius: 30px;
-  max-width: 600px;
-  margin: 20px auto;
-  padding: 80px;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-}
+    <!--Skill 4-->
+    <div class="skill">
+      <div class="skill-name">JavaScript</div>
+      <div class="skill-bar">
+        <div class="skill-progress" style="width: 40%; background-color: #74c69d">40%</div>
+      </div>
+    </div>
 
-.heading1 {
-  font-size: 30px;
-  font-family: Georgia;
-}
+    <!--Skill 5-->
+    <div class="skill">
+      <div class="skill-name">C</div>
+      <div class="skill-bar">
+        <div class="skill-progress" style="width: 70%; background-color: #52b788">70%</div>
+        >
+      </div>
+    </div>
+    </div>
 
-/* Social Media Links Styles */
-.social-media-links {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
+  </section>
 
-.social-media-links a {
-  display: inline-block;
-}
+  <section id="contact" class="contact-section">
+    <div class="contact">
+      <h2 class="heading2">Contact Me</h2>
+      <p>
+        Mail address:
+        <a href="mailto:meghnavs13@gmail.com" class="mail">meghnavs13@gmail.com</a>
+      </p>
+      <p>Phone number: +91 8089416991</p>
+    </div>
+  </section>
+</body>
 
-.social-media-links img {
-  width: 40px;
-  height: 40px;
-  border-radius: 30px;
-}
-
-/* Skills Section Styles */
-.skills-section {
-  background-color: #a2d2ff;
-  text-align: center;
-  padding: 130px;
-  color: black;
-}
-
-.skills {
-  background-color: #a2d2ff;
-  padding: 20px;
-  font-family: sans-serif;
-  font-size: 25px;
-  color: #006400;
-}
-
-.skill {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.skill-name {
-  font-weight: bold;
-  color: black;
-  font-size: 30px;
-}
-
-.skill-bar {
-  background-color: black;
-  height: 20px;
-  border-radius: 10px;
-  flex-grow: 1;
-  margin-left: 10px;
-  position: relative;
-}
-
-.skill-level {
-  height: 100%;
-  border-radius: 10px;
-  width: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: width 0.5s ease-in-out;
-}
-
-/* Contact Section Styles */
-.contact-section {
-  background-color: #a2d2ff;
-  text-align: right;
-  padding: 80px;
-  color: lemonchiffon;
-}
-
-.contact {
-  background-color: #a2d2ff;
-  padding: 40px;
-  font-family: sans-serif;
-  font-size: 25px;
-  color: black;
-}
-
-.mail {
-  color: darkcyan;
-}
-
-.heading2 {
-  color: black;
-}
-
-/* For screens smaller than 600px */
-@media (max-width: 600px) {
-  body {
-    padding: 10px;
-    margin: 0;
-  }
-
-  header {
-    padding: 20px;
-  }
-
-  .nav-links {
-    font-size: 20px;
-  }
-
-  .home-section {
-    flex-direction: column;
-    padding: 20px;
-  }
-
-  .name {
-    font-size: 40px;
-  }
-
-  .desc {
-    font-size: 20px;
-  }
-
-  .image {
-    width: 200px;
-    height: 200px;
-    margin-bottom: 20px;
-  }
-
-  .abt {
-    font-size: 20px;
-    padding: 20px;
-  }
-
-  .contact {
-    font-size: 20px;
-    padding: 20px;
-  }
-}
+</html>
