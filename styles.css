@@ -5,7 +5,7 @@ body {
 
 /* Header Styles */
 header {
-  background-color: cadetblue;
+  background-color: #ffafcc;
   color: #ffffff;
   font-family: "Courier New", Courier, monospace;
   padding: 50px;
@@ -13,7 +13,8 @@ header {
 
 .title-bar {
   text-align: center;
-  font-size: 70px;
+  font-size: 100px;
+  color: #081c15;
 }
 
 /* Navigation Styles */
@@ -30,7 +31,7 @@ header {
 }
 
 .nav-links a {
-  color: black;
+  color: #1b4332;
   border-right: 1px solid #333;
   padding-right: 10px;
 }
@@ -44,8 +45,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 200px;
-  background-color: darkslategrey;
+  padding: 250px;
+  background-color: #cdb4db;
 }
 
 .image {
@@ -53,31 +54,30 @@ header {
 }
 
 .name {
-  font-size: 50px;
+  font-size: 75px;
   font-weight: bold;
   font-family: Verdana;
-  color: lightpink;
+  color: #081c15;
 }
 
-/* About Section Styles */
 .desc {
   font-size: 30px;
   font-family: Arial;
 }
 
 .x {
-  color: lightcyan;
+  color: #2d6a4f;
 }
 
 .y {
-  color: darkseagreen;
+  color: #40916c;
 }
 
 /* About Section Styles */
 .about-section {
   align-items: center;
   padding: 80px;
-  background-color: darkslategrey;
+  background-color: #a2d2ff;
   text-align: center;
 }
 
@@ -91,29 +91,9 @@ header {
   font-size: 25px;
 }
 
-.heading {
+.heading1 {
   font-size: 30px;
   font-family: Georgia;
-}
-
-/* Contact Section Styles */
-.contact-section {
-  background-color: darkslategrey;
-  text-align: left;
-  padding: 80px;
-  color: lemonchiffon;
-}
-
-.contact {
-  background-color: darkslategrey;
-  padding: 40px;
-  font-family: sans-serif;
-  font-size: 25px;
-  color: lightcyan;
-}
-
-.mail {
-  color: lightgreen;
 }
 
 /* Social Media Links Styles */
@@ -131,6 +111,78 @@ header {
   width: 40px;
   height: 40px;
   border-radius: 30px;
+}
+
+/* Skills Section Styles */
+.skills-section {
+  background-color: #a2d2ff;
+  text-align: center;
+  padding: 80px;
+  color: black;
+}
+
+.skills {
+  background-color: #a2d2ff;
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: #006400;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+}
+
+.skill-bar {
+  background-color: black;
+  height: 20px;
+  border-radius: 10px;
+  flex-grow: 1;
+  margin-left: 10px;
+  position: relative;
+}
+
+.skill-level {
+  height: 100%;
+  border-radius: 10px;
+  width: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: width 0.5s ease-in-out;
+}
+
+/* Contact Section Styles */
+.contact-section {
+  background-color: #bde0fe;
+  text-align: right;
+  padding: 80px;
+  color: lemonchiffon;
+}
+
+.contact {
+  background-color: #bde0fe;
+  padding: 40px;
+  font-family: sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+.mail {
+  color: darkcyan;
+}
+
+.heading2 {
+  color: black;
 }
 
 /* For screens smaller than 600px */
